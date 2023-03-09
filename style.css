@@ -1,0 +1,169 @@
+
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display : flex; 
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  padding : 20px  10px; 
+}
+
+nav ul {
+  flex  : 1 ; 
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+  
+}
+nav ul li {
+  list-style:none ;
+  margin-left: 20px;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff; 
+  font-size : 1.6rem; 
+  transition : color .3s;
+}
+nav ul li a:hover {
+  color:#2eb0f0;
+}
+
+li {
+  color: #fff; 
+
+}
+
+ body {
+    font-family: 'Tw Cent Mt';
+    font-size: 20px;
+  }
+  *, *::before, *::after {
+    margin : 0; 
+    padding: 0; 
+    box-sizing:border-box;
+  }
+   body{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width  : 100%; 
+    height: 100vb; 
+    background : url('images/background.jpg') center center repeat;  
+    background-size : 100%;
+   } 
+   header {
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+ 
+  h1 {
+    font-size: 75px;
+    line-height : 3; 
+    letter-spacing: 1px; 
+    margin-bottom: 2rem;
+  }
+  table th 
+  {
+    font-size: 30px;
+    line-height: 1.5;
+
+  }
+
+  table td 
+  {
+    font-size: 30px;
+    line-height: 1.5;
+
+  }
+  h2{
+  font-size: 40px;
+  line-height : 1.5; 
+  letter-spacing: 1px; 
+  margin-bottom: 2rem;
+  color : #fff; } 
+  h3{
+    font-size: 30px;
+    line-height : 1; 
+    letter-spacing: 1px; 
+    margin-bottom: 2rem;
+    color : #fff; } 
+  table caption {
+    font-size: 20px;
+    line-height : 1.5; 
+    letter-spacing: 1px; 
+    margin-bottom: 2rem;
+    color : #fff; 
+  }
+.tablemultiplication td {
+  background-color: #DDD;
+}
+.tablemultiplication th {
+  color: #fff;
+
+}footer li 
+{
+    list-style: none;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: white;
+}footer {
+  color: white;
+  padding: 2em;   
+  width: 100%;
+  justify-content: space-between;
+  display: inline-block;
+  text-align: center;
+}
+article {
+  font-size: 20px;
+    line-height : 1; 
+    letter-spacing: 1px; 
+    margin-bottom: 2rem;
+    color : #fff; 
+}
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #0088cc;
+  margin-bottom: 20px;
+}
+
+article {
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0088cc;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+ol {
+  list-style: decimal;
+  margin-left: 20px;
+}
